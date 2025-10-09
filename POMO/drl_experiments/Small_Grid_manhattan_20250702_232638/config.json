@@ -1,0 +1,24 @@
+{
+  "config": {
+    "N": 5,
+    "M": 1,
+    "D": 10,
+    "K": 2,
+    "name": "Small_Grid"
+  },
+  "distance_metric": "manhattan",
+  "model_params": {
+    "d_model": 256,
+    "n_head": 8,
+    "n_layers": 6
+  },
+  "training_params": {
+    "lr": 0.0003,
+    "total_steps": 50000,
+    "steps_per_update": 2048,
+    "gamma": 0.99,
+    "clip_epsilon": 0.2
+  },
+  "total_params": 5703842,
+  "trainable_params": 5703842
+}
